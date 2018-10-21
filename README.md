@@ -1,4 +1,4 @@
-# set-envs
+# envs-json
 
 앱을 실행하는 시점에서 각 환경에 맞는 `env` 를 설정.
 
@@ -6,10 +6,10 @@
 
 ```
 # with npm 
-npm install set-envs
+npm install envs-json
  
 # or with Yarn 
-yarn add set-envs
+yarn add envs-json
 ```
 
 ## Usage
@@ -17,13 +17,13 @@ yarn add set-envs
 - `json` 파일을 미리 생성 후 `process.env` 에 적용하려 할 때
 
 ```js
-require('set-envs').loadEnvs();
+require('envs-json').loadEnvs();
 ```
 
 - `json` 파일을 생성하지 않고 특정 `object` 를 `process.env` 에 적용하려 할 때
 
 ```js
-require('set-envs').setEnvs({
+require('envs-json').setEnvs({
   'NODE_ENV': 'production'
 });
 ```
