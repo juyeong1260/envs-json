@@ -1,0 +1,9 @@
+{
+  "name": "envs-json",
+  "version": "1.0.0",
+  "description": "set variable envs when app running",
+  "main": "index.js",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {}
+}
