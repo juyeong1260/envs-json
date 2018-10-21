@@ -1,11 +1,11 @@
 {
   "name": "envs-json",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "set variable envs when app running",
   "main": "index.js",
   "author": "",
   "license": "MIT",
-  "repository":{
+  "repository": {
     "type": "git",
     "url": "https://github.com/juyeong1260/envs-json"
   },
