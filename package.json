@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "set variable envs when app running",
   "main": "index.js",
+  "keywords": ["process", "env", "environment", "json", "env-json"],
   "author": "",
   "license": "MIT",
   "repository": {
